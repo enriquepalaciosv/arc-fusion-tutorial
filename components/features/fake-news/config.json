@@ -1,0 +1,27 @@
+{
+    "id": "sltrib/fake-news",
+    "name": "SLTrib Fake News",
+    "description": "A hello world component",
+    "contentService": "content-api",
+    "abstract": false,
+    "customFields": [
+    ],
+    "renderingConfigs": {
+      "default": {
+        "resources": {
+        },
+        "displayProperty": {
+          "columns": {
+            "col-lg": 12,
+            "col-md": 12,
+            "col-sm": 12,
+            "col-xs": 12
+          },
+          "fullWidth": true,
+          "async": false
+        },
+        "template": "feature.jsp"
+      }
+    },
+    "deprecated": false
+  }
